@@ -3,10 +3,10 @@
 namespace ZfcUserDoctrineORM\Mapper;
 
 use Doctrine\ORM\EntityManagerInterface;
+use Laminas\Hydrator\HydratorInterface;
 use ZfcUser\Entity\UserInterface;
 use ZfcUser\Mapper\User as ZfcUserMapper;
 use ZfcUserDoctrineORM\Options\ModuleOptions;
-use Zend\Hydrator\HydratorInterface;
 
 class User extends ZfcUserMapper
 {
